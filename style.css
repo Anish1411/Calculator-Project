@@ -1,0 +1,122 @@
+body{
+    background-color: #ecf0f3;
+    text-align: center;
+}
+
+.container h1{
+    font-family: cursive;
+    color: rgb(28, 28, 185);
+    /* font-size: 30px; */
+    margin-block-end: 0;
+}
+
+hr{
+    border: none;
+    border-top: 3px solid #333;
+    text-align: center;
+    /* height: 5px; */
+    width: 5%;
+    margin-block-end: 25px;
+}
+
+.format{
+    width: 320px; 
+    height: 580px;
+    background-color: #ecf0f3;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto auto;
+    grid-template-columns: repeat(4 , 70px);
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12px #ffffff , 5px 5px 12px rgba(0 ,0,0,.16);
+    /* border: solid  rgba(#000, .16); */
+}
+
+input{
+    display: flex;
+    background-color: #ecf0f3;
+    grid-column: span 4;
+    width: 280px;
+    height: 120px;
+    font-size: 3rem;
+    text-align: end;
+    border: none;
+    border-radius: 30px;
+    margin-top: 70px;
+    box-shadow:  inset 5px 5px 12px rgba(0 ,0,0,.16) , inset -5px -5px 12px #ffffff;
+}
+
+.btn{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    grid-template-columns: repeat(4 , 70px);
+    padding: 25% 5%;
+}
+
+.button{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%; 
+    border: none;
+    /* border: 1px solid white; */
+    box-shadow:  -5px -5px 12px #ffffff , 5px 5px 12px rgba(0 ,0,0,.16);
+    padding: 2% 5%;
+    margin: 5px;
+    font-size: 25px;
+   
+    font-weight: bold;
+}
+
+button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.blue{
+    color: rgb(32, 0, 212);
+    font-size: 20px;
+}
+
+.large{
+    font-size: 28px;
+}
+
+.equal{
+    width: 130px;
+    height: 55px;
+    border-radius: 150px;
+    background-color: rgb(103, 78, 248);
+    color: white;
+    font-size: 35px;
+    box-shadow:  4px 1px 5px white , -4px -1px 5px white ;
+}
+
+.light {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%; 
+    border: none;
+    /* border: 1px solid white; */
+    box-shadow:  -5px -5px 12px #ffffff , 5px 5px 12px rgba(0 ,0,0,.16);
+    font-size: 25px;
+    position: absolute;
+    
+    right: 5%;
+}
+
+.dark{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%; 
+    border: none;
+    /* border: 1px solid white; */
+    box-shadow:  -5px -5px 12px #ffffff , 5px 5px 12px rgba(0 ,0,0,.16);
+    font-size: 25px;
+    position: absolute;
+    background-color: rgb(43, 41, 41);
+    right: 10%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculater</title>
+    
+    
+</head>
+<body>
+    <div class="container">
+        <button onclick="lightStyle()" class="light">🌞</button>
+        <button onclick="darkStyle()" class="dark">🌙</button>
+        <h1>⭐Calculator⭐</h1>
+        <hr>
+        
+        <div class="format">
+            <input type="text" value="0" id="output">
+            <div class="btn">
+
+            <button onclick="Clear()" class="blue button">AC</button>
+            <button onclick="Delete()" class="blue button">DEL</button>
+            <button onclick="display('%')" class="blue large button">%</button>
+            <button onclick="display('/')" class="blue large button">/</button>
+            <button onclick="display('7')" class="button">7</button>
+            <button onclick="display('8')" class="button">8</button>
+            <button onclick="display('9')" class="button">9</button>
+            <button onclick="display('*')" class="blue large button">x</button>
+            <button onclick="display('4')" class="button">4</button>
+            <button onclick="display('5')" class="button">5</button>
+            <button onclick="display('6')" class="button">6</button>
+            <button onclick="display('-')" class="blue large button">-</button>
+            <button onclick="display('1')" class="button">1</button>
+            <button onclick="display('2')" class="button">2</button>
+            <button onclick="display('3')" class="button">3</button>
+            <button onclick="display('+')" class="blue large button">+</button>
+            <button onclick="display('.')" class="button">.</button>
+            <button onclick="display('0')" class="button">0 </button>
+            <button onclick="calculate()" class="blue large equal button">=</button>
+                            
+        </div>
+        </div>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
